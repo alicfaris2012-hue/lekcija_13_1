@@ -21,7 +21,7 @@ require_once "config.php";
     <main class="form-signin">
         <div class="logo">B</div>
         <h2 class="mb-4">Please sign in</h2>
-        <form action="login.php" method="POST">
+        <form action="loginLogic.php" method="POST">
             <input
     type="text"
     name="username"
@@ -45,8 +45,9 @@ require_once "config.php";
 </div>
 <button
 class="w-100 btn btn-lg btn-primary"
-type="submit">
-Sign up
+type="submit"
+name="submit">
+Sign in
 </button>
 
 <p class="mt-3">

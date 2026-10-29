@@ -74,7 +74,8 @@ require_once "config.php";
 
 <button
 class="w-100 btn btn-lg btn-primary"
-type="submit">
+type="submit"
+name="submit">
 Sign up
 </button>
 
